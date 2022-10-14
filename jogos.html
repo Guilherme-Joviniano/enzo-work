@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esporte | OneFootBall</title>
+    <title>Inicio | OneFootBall</title>
     <link rel="stylesheet" href="./public/style/style.css">
-    <link rel="stylesheet" href="./public/style/esportes.css">
-
+    <link rel="stylesheet" href="./public/style/jogos.css">
     <script src="https://kit.fontawesome.com/cb13db9242.js" crossorigin="anonymous"></script>
     <script src="./src/js/app.js" defer></script>
-    <script src="./src/js/template/Esportes/app.js" defer type="module"></script>
+    <script src="./src/js/template/Jogos/app.js" defer type="module"></script>
 </head>
-
 <body>
     <div class="root">
         <header>
             <div class="menu">
                 <div class="logo"></div>
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Jogos</a></li>
-                    <li><a href="esporte.html" class="selected">Esportes</a></li>
+                    <li><a href="" >Inicio</a></li>
+                    <li><a href="" class="selected">Jogos</a></li>
+                    <li><a href="esportes.html">Esportes</a></li>
                 </ul>
             </div>
-            <input type="text" placeholder="Faça uma pesquisa..." id="search">
+            <input type="text" placeholder="Faça uma pesquisa...">
             <div class="lateral-bar">
                 <div class="search">
                     <svg fill="none" stroke="currentColor" stroke-width="1.5" class="search-icon">
@@ -43,9 +40,20 @@
             </div>
         </header>
         <main>
-            <div class="container-cards"></div>
+            <div class="filter-days">
+                <select class="days">
+                    <option value="segunda-feira" id="segunda-feira">Segunda-Feira</option>
+                    <option value="terca-feira"  id="terca-feira" >Terça-Feira</option>
+                    <option value="quarta-feira" id="quarta-feira">Quarta-Feira</option>
+                    <option value="quinta-feira" id="quinta-feira">Quinta-Feira</option>
+                    <option value="sexta-feira" id="sexta-feira">Sexta-Feira</option>
+                </select>
+            </div>
+            <div class="container-games"></div>
+            <div class="detail-game">
+                <div class="close"></div>
+            </div>
         </main>
     </div>
 </body>
-
 </html>

@@ -29,6 +29,7 @@ ul {
 
 .root {
     width: 100vw;
+    min-height: 100vh;
     background: var(--bg-color)
 }
 header input {

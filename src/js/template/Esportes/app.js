@@ -102,8 +102,6 @@ cards.forEach((card) => card.addEventListener('click', ({
     }  
     else {
         ul.classList.remove('show');
-
-
     }
 
 }))
