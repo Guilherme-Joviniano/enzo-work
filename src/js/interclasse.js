@@ -1,6 +1,6 @@
 const interclasse = [{
     "esportes": [{
-            "nome": "basqueteuetebol",
+            "nome": "basquete",
             "regras": [{
                 "formaçao": "Street equipe composta por 3 atletas",
                 "espaço de jogo": "meia quadra",
