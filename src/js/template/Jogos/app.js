@@ -30,12 +30,12 @@ class GamesPanel {
     render = () => {
         const currentDate = this.getDate();
 
-        this.setCurrentDate('segunda-feira')
+        this.setCurrentDate(currentDate)
         this.setSelector();
 
         const {
             esportes
-        } = getEsportesDias('segunda-feira');
+        } = getEsportesDias(currentDate);
 
         const games = Object.entries(esportes);
 
