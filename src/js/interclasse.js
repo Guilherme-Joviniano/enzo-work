@@ -154,206 +154,186 @@ const chaveamentos = [
                                 "futsal-masculino": [
                                     {
                                         "local":"Ginásio",
-                                        "jogo1":"14:45h até 15:05h",
-                                        "jogo2":"15:10h até 15:30h",
-                                        "jogo3":"17:00h até 17:20h",
-                                        "jogo4": "17:25h até 17:45h",
+                                        "jogo1":["14:45h", "1°C x 1°D"],
+                                        "jogo2":["15:10h","1°E x 1°A" ],
+                                        "jogo3":["17:05h", "2°D x 2°E"],
+                                        "jogo4": ["17:30h", "2°C x 2°A"],
                                     }
                                 ],
                 
                                 "futsal-feminino":[
                                     {
                                         "local":"Ginásio",
-                                        "jogo1":"15:35h até 15:55h",
-                                        "jogo2":"16:35h até 16:55h",
-                                        "jogo3":"17:50h até 18:10h",
-                                        "jogo4":"18:15h até 18:35h",
+                                        "jogo1":["15:35h", "1°C x 1°D"],
+                                        "jogo2":["16:40h", "1°E x 1°A"],
+                                        "jogo3":["17:55h", "2°D x 2°E"],
+                                        "jogo4":["18:20h", "2°C x 2°A"],
                                     }
                                 ],
-                
-                                "basquete-masculino": [
+                                "hand-masculino": [
                                     {
                                         "local":"Quadra externa 1",
-                                        "jogo1":"14:45h até 15:05h",
-                                        "jogo2":"15:10h até 15:30h",
-                                        "jogo3":"15:35h até 15:55h",
-                                        "jogo4":"16:35h até 16:55h",
-                                        "jogo5":"17:10h até 17:20h",
-                                        "jogo6":"17:25h até 17:45h",
-                                        "jogo7":"17:50h até 18:10h",
-                                        "jogo8":"18:15h até 18:35h",
+                                        "jogo1":["14:45h", "2°D x 2°B"],
+                                        "jogo2":["15:10h", "2°A x 2°C"],
+                                        "jogo3":["17:05h", "3°E x 3°C"],
+                                        "jogo4":["17:30h", "3°A x 3°B"],
                                     }
                                 ],
-                
                                 "hand-feminino": [
                                     {
+                                        "local":"Quadra externa 1",
+                                        "jogo1":["15:35h", "2°D x 2°B"],
+                                        "jogo2":["16:40h", "2°A x 2°C"],
+                                        "jogo3":["17:55h", "3°E x 3°C"],
+                                        "jogo4":["18:20h", "3°A x 3°B"],
+                                    }
+                                ],
+                                "volei": [
+                                    {
                                         "local":"Quadra externa 2",
-                                        "jogo1":"14:45h até 15:05h",
-                                        "jogo2":"15:10h até 15:30h",
-                                        "jogo3":"15:35h até 15:55h",
-                                        "jogo4":"16:35h até 16:55h",
-                                        "jogo5":"17:10h até 17:20h",
-                                        "jogo6":"17:25h até 17:45h",
-                                        "jogo7":"17:50h até 18:10h",
-                                        "jogo8":"18:15h até 18:35h",
+                                        "jogo1":["14:45h", "3°E x 3°A"],
+                                        "jogo2":["15:10h", "3°B x 3°C"],
+                                        "jogo3":["15:35h", "3°D x 3°A"],
+                                        "jogo4":["16:40h", "3°E x 3°C"],
+                                        "jogo5":["17:05h", "1°B x 1°E"],
+                                        "jogo6":["17:30h", "1°A x 1°C"],
+                                        "jogo7":["17:55h", "2°A x 2°B"],
+                                        "jogo8":["18:20h", "1°D x ????"],  
                                     }
                                 ],
-                                "frisb-misto": [
-                                    {
-                                        "local":"Campo",
-                                        "jogo1":"14:45h até 15:05h",
-                                        "jogo2":"15:10h até 15:30h",
-                                        "jogo3":"17:00 até 17:20h",
-                                        "jogo4":"17:25 até 17:45h",
-                                    }
-                                ],
-                                "pic-band-misto":[
-                                    {
-                                        "local":"Campo",
-                                        "jogo1":"15:35h até 15:55h",
-                                        "jogo2":"16:35h até 16:55h",
-                                        "jogo3":"17:50h até 18:10h",
-                                        "jogo4":"18:15h até 18:35h",
-                                    }
-                                ],
+                                
                 
-                                "beach-masculino": [
+                                "dodgecone":[
                                     {
-                                        "local": "Quadra de areia",
-                                        "jogo1":"14:45h até 15:05h",
-                                        "jogo2":"15:10h até 15:30h",
-                                        "jogo3":"17:50h até 18:10h",
-                                        "jogo4":"18:15h até 18:35h",
+                                        "local": "Quadra externa 3 (Skate)",
+                                        "jogo1": ['14:45h', '2°A x 2°C'],
+                                        "jogo2": ['15:10h', '2°B x 2°D'],
+                                        "jogo3": ['16:40h', '3°B x 2°D'],
+                                        "jogo4": ['17:05h', '1°A x 1°C'],
+                                        "jogo5": ['17:30h', '1°B x 1°D'],
                                     }
                                 ],
-                                "beach-feminino":[
+
+                                "beach-masc": [
                                     {
-                                        "local": "Quadra de areia",
-                                        "jogo1":"15:35h até 15:55h",
-                                        "jogo2":"16:35h até 16:55h",
-                                        "jogo3":"17:10h até 17:20h",
-                                        "jogo4":"17:25h até 17:45h",
+                                        "local": "Beach Volei",
+                                        "jogo1": ['15:35h', '1°D x 1°E'],
+                                        "jogo2": ['16:40h', '1°A x 1°B'],
+                                        "jogo3": ['17:30h', '1°C x ????'],
                                     }
-                                ]
+                                ],
+
+                                "beach-fem": [
+                                    {
+                                        "local": "Beach Volei",
+                                        "jogo1": ['14:45h', '1°D x 1°E'],
+                                        "jogo2": ['15:10h', '1°A x 1°B'],
+                                        "jogo3": ['17:05h', '1°C x ????'],
+                                    }
+                                ],
+                                
                             }
                         },
                     ],
                     "terca":[
                         {
-                            "esportes":{
-                                
-                                    "futsal-masculino":[
+                            "esportes":{               
+                                    "futsal-masculino-ginasio":[
                                         {
                                             "local":"Ginásio",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
+                                            "jogo1":["14:00h", '3°A x 3°B'],
+                                            "jogo2":["14:30h", '3°C x 3°D'],
+                                            "jogo3":["15:00h", '3°E x 3°A'],
+                                            "jogo4":["15:30h", '3°B x 3°C'],
+                                           
                                         }
                                     ],
+
+                                    //Futsal Masculino na quadra externa 1
+                                    "futsal-masculino":[
+                                        {
+                                            "local":"Quadra Externa 1",
+                                            "jogo1":["16:40h", '3°D x 3°E'],
+                                            "jogo2":["17:05h", '3°A x 3°C'],
+                                        }
+                                    ],
+
                     
                                     "futsal-feminino":[
                                         {
                                             "local:":"Ginásio",
-                                            "jogo1":"15:00h até 15:25h",
-                                            "jogo2":"15:30h até 15:55h",
+                                            "jogo1":["16:40h", '3°B x 3°E'],
+                                            "jogo2":["17:05h", '3°A x 3°D'],
+                                            "jogo3":["17:30h", '3°E x 3°C'],
+                                            "jogo4":["17:55h", '3°B x 3°D'],
+                                            "jogo5":["18:20h", '3°A x 3°C'],
+                                        }
+                                    ],
+
+                                    //Futsal Feminino na quadra externa 1
+                                    "futsal-feminino-quadra":[
+                                        {
+                                            "local":"Quadra externa 1",
+                                            "jogo1":["17:30h", '1°B x ????']
                                         }
                                     ],
                     
-                                    "volei-feminino":[
+                                    "volei":[
                                         {
-                                            "local":"Ginásio",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:05h até 17:30h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
-                                        }
-                                    ],
-                                    
-                                    "basquete-masculino":[
-                                        {
-                                            "local":"Quadra externa 1",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
-                                            
+                                            "local":"Quadra externa 2",
+                                            "jogo1":["16:40h", '1° FINAL!!!!'],
+                                            "jogo2":["17:55h", '2°E x 2°D'],
+                                            "jogo3":["18:20h", '2°C x ????'],
                                         }
                                     ],
                     
                                     "basquete-feminino":[
                                         {
-                                            "local":"Quadra externa 1",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:05h até 17:30h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
+                                            "local":"Quadra externa 2",
+                                            "jogo1":["15:00h", '2°E x 2°C | 2°B x 2°A'],
+                                        }
+                                    ],
+
+                                    "basquete-masculino":[
+                                        {
+                                            "local":"Quadra externa 2",
+                                            "jogo1":["15:30h", '2°E x 2°C | 2°B x 2°A'],
                                         }
                                     ],
                     
                                     "hand-feminino":[
                                         {
-                                            "local":"Quadra externa 2",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":["14:30h", '2°E x ????'],
+                                            "jogo2":["15:30h", '2° FINAL!!!'],
                                         }
                                     ],
                                     
                                     "hand-masculino":[
                                         {
-                                            "local":"Quadra externa 2",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:05h até 17:30h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":["14:00h", '2°E x ????'],
+                                            "jogo2":["15:00h", '2° FINAL!!!'],
                                         }
-                                    ],
-                                    
-                                    "frisb-misto":[
+                                    ],         
+                                    'beach-fem': [
                                         {
-                                            "local":"Campo",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
+                                            local: 'Beach Volei',
+                                            jogo1: ['14:00h', '2°D x 2°B'],
+                                            jogo2: ['15:00h', '3°B x 3°E'],
+                                            jogo3: ['15:30h', '3°A x 3°D'],
+                                            jogo4: ['16:40h', '2°A x 2°C'],
+                                            jogo5: ['17:30h', '2°E x ????'],
                                         }
-                                    ],
-                    
-                                    "pic-band-misto":[
+                                    ],                           
+                                    'beach-masc': [
                                         {
-                                            "local":"Campo",
-                                            "jogo1":"15:00h até 15:25h",
-                                            "jogo2":"15:30h até 15:55h",
+                                            local: 'Beach Volei',
+                                            jogo1: ['14:30h', '2°D x 2°B'],
+                                            jogo2: ['17:05h', '2°A x 2°C'],
+                                            jogo3: ['17:55h', '2°E x ????'],
                                         }
-                                    ],
-                    
-                                    "dodge-misto":[
-                                        {
-                                            "local":"Campo",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:05h até 17:30h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
-                                        }
-                                    ],
-                    
-                                    "beach-masculino":[
-                                        {
-                                            "local":"Quadra de areia",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
-                                        }
-                                    ],
-                                    "beach-feminino":[
-                                        {
-                                            "local":"Quadra de areia",
-                                            "jogo1":"15:00h até 15:25h",
-                                            "jogo2":"15:30h até 15:55h",
-                                            "jogo3":"16:35h até 17:00h",
-                                            "jogo4":"17:05h até 17:30h",
-                                        }
-                                    ]
-                                
+                                    ]      
                                 }
                         }
                         
@@ -363,81 +343,59 @@ const chaveamentos = [
                         {
                             "esportes":
                                 {
-                                    "natacao-masculino-e-feminino":[
+                                    "hand-masculino":[
                                         {
-                                            "local":"Piscina",
-                                            "1momento":"13:50h até 14:25h",
-                                            "2momento":"14:35h até 15:10h",
-                                            "3momento":"15:20h até 15:55h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"14:00h",
+                                            "jogo2":"14:30h",
+                                            "jogo3":"16:40h",
+                                            "jogo4":"17:30h : FINAL",
                                         }
                                     ],
-                                    
-                                    "atlet-arrem-salto-masculino-e-feminino":[
+
+                                    "hand-feminino":[
                                         {
-                                            "local":"Pista de atletismo",
-                                            "1momento":"13:50h até 14:25h",
-                                            "2momento":"14:35h até 15:10h",
-                                            "3momento":"15:20h até 15:55h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"15:00h",
+                                            "jogo2":"15:30h",
+                                            "jogo3":"17:05h",
+                                            "jogo4":"17:55h : FINAL",
                                         }
                                     ],
-                    
-                                    "cabo-misto":[
-                                        {
-                                            "local":"Quadra externa 2",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:05h até 17:30h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
-                                        }
-                                    ],
-                                    
-                                    "futsal-masculino":[
-                                        {
-                                            "local":"quadra-externa 2",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:35h até 18:00h",
-                                        },
-                                    ],
-                    
+
                                     "futsal-feminino":[
                                         {
-                                            "local":"quadra-externa 2",
-                                            "jogo2":"17:05h até 17:30h",
-                                            "jogo4":"18:05h até 18:30h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"18:20h",                          
                                         }
                                     ],
-                    
-                                    "frisb-misto":[
+
+                                    "basquete-masculino":[
                                         {
-                                            "local":"Campo",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:05h até 17:30h",
+                                            "local":"Quadra externa 2",
+                                            "jogo3":"15:00h",
+                                            "jogo4":"15:30h",
+                                            "jogo6":"17:05h",
                                         }
                                     ],
-                    
-                                    "pic-band-misto":[
+
+                                    "basquete-feminino":[
                                         {
-                                            "local":"campo",
-                                            "jogo1":"17:35h até 18:00h",
-                                            "jogo2":"18:05h até 18:30h",
+                                            "local":"Quadra externa 2",
+                                            "jogo1":"14:00h",
+                                            "jogo2":"14:30h",
+                                            "jogo3":"16:40h",
                                         }
                                     ],
-                    
-                                    "tenis-de-mesa-feminino":[
+
+                                    "volei":[
                                         {
-                                            "local":"Clube, Pátio e Sala",
-                                            "jogo1":"16:35h até 17:00h",
-                                            "jogo2":"17:05h até 17:30h",
+                                            "local":"Quadra externa 2",
+                                            "jogo1":"16:40h",
+                                            "jogo2":"17:55h : FINAL",
+                                            "jogo3":"18:20h : FINAL",
                                         }
-                                    ],
-                    
-                                    "tenis-de-mesa-masculino":[
-                                        {
-                                            "local":"Clube, Pátio e Sala",
-                                            "jogo1":"17:35h até 18:00h",
-                                            "jogo2":"18:05h até 18:30h",
-                                        }
-                                    ],
+                                    ],                                
                                 }
                         }
                     ],
@@ -446,82 +404,45 @@ const chaveamentos = [
                         {
                             "esportes":
                                 {
-                                    "volei-misto":[
+                                    "horarios":[
                                         {
                                             "local":"Ginásio",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
-                                            "jogo5":"16:35h até 17:00h",
-                                            "jogo6":"17:05h até 17:30h",
-                                            "jogo7":"17:35h até 18:00h",
-                                            "jogo8":"18:05h até 18:30h",
+                                            "jogo1":"14:00h",
+                                            "jogo2":"14:30h",
+                                            "jogo3":"15:00h",
+                                            "jogo4":"15:30h",
+                                            "jogo5":"16:40h",
+                                            "jogo6":"17:05h",
+                                            "jogo7":"17:30h",
+                                            "jogo8":"17:55h",
+                                            "jogo9":"18:20h",
                                         }
                                     ],
-                    
-                                    "basquete-feminino":[
+
+                                    "futsal-feminino":[
                                         {
                                             "local":"Quadra externa 1",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
-                                            "jogo5":"16:35h até 17:00h",
-                                            "jogo6":"17:05h até 17:30h",
-                                            "jogo7":"17:35h até 18:00h",
-                                            "jogo8":"18:05h até 18:30h",
+                                            "jogo1":"14:00h",
+                                            "jogo2":"14:30h",                                         
+                                        }
+                                    ],
+
+                                    "futsal-masculino":[
+                                        {
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"15:00h",
+                                            "jogo2":"15:30h",                         
                                         }
                                     ],
                     
-                                    "hand-masculino":[
+                                    "basquete-masculino":[
                                         {
                                             "local":"Quadra externa 2",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
-                                            "jogo5":"16:35h até 17:00h",
-                                            "jogo6":"17:05h até 17:30h",
-                                            "jogo7":"17:35h até 18:00h",
-                                            "jogo8":"18:05h até 18:30h",
+                                            "jogo1":"15:00h",
+                                            "jogo2":"15:30h",
                                         }
-                                    ],
-                                    "dodge-misto":[
-                                        {
-                                            "local":"Campo",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
-                                            "jogo5":"16:35h até 17:00h",
-                                            "jogo6":"17:05h até 17:30h",
-                                            "jogo7":"17:35h até 18:00h",
-                                            "jogo8":"18:05h até 18:30h",
-                                        }
-                                    ],
-                                    
-                                    "beach-masculino":[
-                                        {
-                                            "local":"Quadra de areia",
-                                            "jogo1":"13:55 até 14:25h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
-                                        }
-                                    ],
-                                    
-                                    "beach-feminino":[
-                                        {
-                                            "local":"Quadra de areia",
-                                            "jogo1":"15:00h até 15:25h",
-                                            "jogo2":"15:30h até 15:55h",
-                                            "jogo3":"16:35h até 17:00h",
-                                            "jogo4":"17:05h até 17:30h",
-                                        }
-                                    ],
-                                }
-                            
+                                    ],                               
+                                }        
                         }
                     ],
             
@@ -532,89 +453,72 @@ const chaveamentos = [
                                     "futsal-masculino":[
                                         {
                                             "local":"Ginásio",
-                                            "jogo1":"13:55 até 14:20h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"16:35h até 17:00h",
-                                            "jogo4":"17:05h até 17:30h",
+                                            "jogo1":"15:00h",
+                                            "jogo2":"15:30h",
+                                            "jogo3":"16:40h : FINAL",
+                                            "jogo4":"17:05h : FINAL",
+                                        }
+                                    ],
+
+                                    "futsal-masculino-quadra":[
+                                        {
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"14:00h",
                                         }
                                     ],
                     
                                     "futsal-feminino":[
                                         {
                                             "local":"Ginásio",
-                                            "jogo1":"15:00h até 15:25h",
-                                            "jogo2":"15:30h até 15:55h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
+                                            "jogo1":"14:00h",
+                                            "jogo2":"14:30h",
+                                            "jogo3":"17:30h : FINAL",
+                                            "jogo4":"17:55h : FINAL",
                                         }
                                     ],
-                    
-                                    "cabo-misto":[
+
+                                    "futsal-feminino-quadra":[
                                         {
-                                            "local":"Quadra externa",
-                                            "jogo1":"13:55 até 14:20h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
-                                            "jogo5":"16:35h até 17:00h",
-                                            "jogo6":"17:05h até 17:30h",
-                                            "jogo7":"17:35h até 18:00h",
-                                            "jogo8":"18:05h até 18:30h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"14:30h",
+                                            "jogo2":"15:30h",
                                         }
                                     ],
-                                    
-                                    "tenis-mesa-feminino":[
+
+                                    "hand-masculino":[
                                         {
-                                            "local":"Clube, pátio ou sala",
-                                            "jogo1":"13:55 até 14:20h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"16:35h até 17:00h",
-                                            "jogo4":"17:05h até 17:30h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"16:40h",
+                                            "jogo2":"17:30h : FINAL",
                                         }
                                     ],
-                                    "tenis-mesa-masculino":[
+
+                                    "hand-feminino":[
                                         {
-                                            "local":"Clube, pátio ou sala",
-                                            "jogo1":"15:00h até 15:25h",
-                                            "jogo2":"15:30h até 15:55h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
+                                            "local":"Quadra externa 1",
+                                            "jogo1":"15:00h",
+                                            "jogo2":"17:05h : FINAL",
                                         }
                                     ],
-                    
-                                    "pembolim":[
+
+                                    "basquete-masculino":[
                                         {
-                                            "local":"Clube, pátio ou sala",
-                                            "jogo1":"13:55 até 14:20h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"15:00h até 15:25h",
-                                            "jogo4":"15:30h até 15:55h",
-                                            "jogo5":"16:35h até 17:00h",
-                                            "jogo6":"17:05h até 17:30h",
-                                            "jogo7":"17:35h até 18:00h",
-                                            "jogo8":"18:05h até 18:30h",
+                                            "local":"Quadra externa 2",
+                                            "jogo1":"14:30h",
+                                            "jogo2":"15:30h : FINAL",
+                                            "jogo3":"17:30h",
                                         }
                                     ],
-                    
-                                    "frisb-misto":[
+
+                                    "basquete-feminino":[
                                         {
-                                            "local":"Campo",
-                                            "jogo1":"13:55 até 14:20h",
-                                            "jogo2":"14:30h até 14:55",
-                                            "jogo3":"16:35h até 17:00h",
-                                            "jogo4":"17:05h até 17:30h",
+                                            "local":"Quadra externa 2",
+                                            "jogo1":"14:00h",
+                                            "jogo2":"15:00h",
+                                            "jogo3":"16:40h : FINAL",
+                                            "jogo4":"17:05h",
                                         }
-                                    ],
-                    
-                                    "pic-band-misto":[
-                                        {
-                                            "local":"Campo",
-                                            "jogo1":"15:00h até 15:25h",
-                                            "jogo2":"15:30h até 15:55h",
-                                            "jogo3":"17:35h até 18:00h",
-                                            "jogo4":"18:05h até 18:30h",
-                                        }
-                                    ],
+                                    ],                                
                                 }
                             
                         }

@@ -380,3 +380,9 @@ main .title h2 {
 .line-team .value {
     margin-left: 20px;
 }
+
+@media (max-width: 600px) {
+    .lateral-bar {
+        display: none;
+    }
+}

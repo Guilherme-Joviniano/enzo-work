@@ -30,12 +30,12 @@ class GamesPanel {
     render = () => {
         const currentDate = this.getDate();
 
-        this.setCurrentDate(currentDate)
+        this.setCurrentDate('segunda-feira')
         this.setSelector();
 
         const {
             esportes
-        } = getEsportesDias(currentDate);
+        } = getEsportesDias('segunda-feira');
 
         const games = Object.entries(esportes);
 
@@ -44,6 +44,7 @@ class GamesPanel {
         this.setVitrine(games)
         document.querySelector('.close').addEventListener('click', (_e) => {
             this.detail.style.display = 'none'
+            document.querySelector('main').classList.remove('bg')
         })
     }
     update = (date) => {
@@ -72,12 +73,13 @@ class GamesPanel {
             } = target
             const detail = data.filter(([title]) => {
                 return title === id
-            })[0]
+            })[0] // get the content
 
-            this.renderDetailCard(detail);
+            this.renderDetailCard(detail); // render the content
 
-            this.detail.style.display = 'flex'
-
+            this.detail.style.display = 'flex'  // show
+            document.querySelector('main').classList.add('bg')
+            window.scrollTo(0, 0) // media querie
         }))
     }
     renderVitrine = (data) => {
@@ -117,20 +119,20 @@ class GamesPanel {
     renderDetailCard = (data) => {
         this.cleanDetailCard();
         const title = data[0]
-        const time = data[1]
+        const combats = data[1]
         this.detail.append(this.createDetailCard({
             title,
-            time
+            combats
         }));
     }
     createDetailCard = (props) => {
         const {
             title,
-            time
+            combats
         } = props
 
         const titleContent = title
-        const timeContent = Object.values(time[0])
+        const timeContent = Object.values(combats[0])
 
         timeContent.shift()
 
@@ -141,7 +143,7 @@ class GamesPanel {
         timeContent.forEach((time) => {
             const li = document.createElement('li')
             li.classList.add('item-time-list');
-            li.textContent = time
+            li.textContent = time.join().replace(',', ' --> ')
             timeList.append(li)
         })
 
