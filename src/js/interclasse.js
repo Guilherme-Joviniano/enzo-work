@@ -81,7 +81,7 @@ const interclasse = [{
             }]
         },
         {
-            "nome": "Salto em distancia - masculinoulino",
+            "nome": "Salto em distancia - masculino",
             "regras": [{
                 "regra1": "1-Bateria masculinoulina dos 1°anos com anotação do melhor resultado",
                 "regra2": "2-Bateria masculinoulina dos 2°anos com anotação do melhor resultado",
@@ -90,7 +90,7 @@ const interclasse = [{
             }]
         },
         {
-            "nome": "Salto em distancia - femininoinino",
+            "nome": "Salto em distancia - feminino",
             "regras": [{
                 "regra1": "1-Bateria femininoinina dos 1°anos com anotação do melhor resultado",
                 "regra2": "2-Bateria femininoinina dos 2°anos com anotação do melhor resultado",
@@ -99,7 +99,7 @@ const interclasse = [{
             }]
         },
         {
-            "nome": "Arremeso de peso - masculinoulino",
+            "nome": "Arremeso de peso - masculino",
             "regras": [{
                 "regra1": "1-Bateria masculinoulina dos 1°anos com anotação do melhor resultado",
                 "regra2": "2-Bateria masculinoulina dos 2°anos com anotação do melhor resultado",
@@ -108,7 +108,7 @@ const interclasse = [{
             }]
         },
         {
-            "nome": "Arremeso de peso - femininoinino",
+            "nome": "Arremeso de peso - feminino",
             "regras": [{
                 "regra1": "1-Bateria femininoinina dos 1°anos com anotação do melhor resultado",
                 "regra2": "2-Bateria femininoinina dos 2°anos com anotação do melhor resultado",

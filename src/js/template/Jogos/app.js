@@ -28,7 +28,8 @@ class GamesPanel {
         })
     }
     render = () => {
-        const currentDate = this.getDate();
+        let currentDate = this.getDate();
+        if(currentDate == 'terça-feira') currentDate = 'terca-feira'; 
 
         this.setCurrentDate(currentDate)
         this.setSelector();
