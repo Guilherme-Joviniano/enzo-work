@@ -9,7 +9,17 @@ const interclasse = [{
             }]
         },
         {
-            "nome": "Beach Tenis",
+            "nome": "Beach Tenis - masculino",
+            "regras": [{
+                "formação": "Formação dupla mistas",
+                "pontuação": "3 sets de 12 pontos",
+                "regra1": "Marca ponto quem fazer a bola tocar no chão do campo adversário",
+                "regra2": "Vence quem conseguir atingir 2 sets primeiro",
+            }]
+        },
+
+        {
+            "nome": "Beach Tenis - feminino",
             "regras": [{
                 "formação": "Formação dupla mistas",
                 "pontuação": "3 sets de 12 pontos",
